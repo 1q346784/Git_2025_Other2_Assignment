@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-	    <meta charset="UTF-8">
-	    <title>Quiz</title>
-	</head>
-	<body>
-		<script src="Quiz.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div style="border: 1px solid #ccc; padding: 10px; width: fit-content">
+      <div style="margin-bottom: 8px">
+        システム開発の早い段階で、目に見える形で利用者の要求が確認できるように確認用のソフトウェアを作成するソフトウェア開発モデルとして、最も適切なものはどれか。
+      </div>
+      <form>
+        <label><input type="radio" name="model" />アジャイル</label>
+        <label><input type="radio" name="model" />ウォーターフォール</label>
+        <label><input type="radio" name="model" />スパイラル</label>
+        <label
+          ><input type="radio" name="model" checked />プロトタイピング</label
+        >
+        <br /><br />
+        <button type="button" style="margin-top: 8px">解答する</button>
+      </form>
+    </div>
+    <script src="Quiz.js"></script>
+  </body>
 </html>
